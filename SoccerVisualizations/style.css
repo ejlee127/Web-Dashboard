@@ -1,0 +1,146 @@
+/* giving the body a dark background to better see the bright colored boxes */
+body {
+    background: rgb(235, 232, 231);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(17, 143, 160);
+    text-align: left;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 800;
+  color: rgb(17, 143, 160);
+  text-align: left;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: rgb(17, 143, 160);
+  text-align: center;
+}
+
+h5 {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: rgb(17, 143, 160);
+  text-align: center;
+}
+
+.body-font-size {
+  font-size: 16px;
+}
+
+hr {
+  color:rgb(182, 179, 179);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+.navbar-brand {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  color: white !important;
+  background-color: rgb(17, 143, 160);
+  /*box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);*/
+}
+
+.container {
+  margin-top: 20px;
+}  
+
+.nav-link {
+color: black!important;
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: flex-end;
+}
+
+
+
+.main-box {
+  padding: 20px;
+  background-color: white;
+}
+
+.side-box {
+  min-height: 100px;
+  padding: 20px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+.img-all {
+  padding: 5px;
+  width: 100%;
+  height:auto;
+}
+
+.img-text {
+  width: 50%;
+  height: auto;
+  margin-right: 5px;
+}
+
+.img-small {
+  /*padding-top: 10px;*/
+  margin-top: 5px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+
+  .body-font-size {
+    font-size: 12px;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+
+  .body-font-size {
+    font-size: 12px;
+  }
+
+  .navbar {
+  background-color: rgb(17, 143, 160);
+  }
+
+
+  .bg-light {
+     background-color: rgb(17, 143, 160)!important;
+  }
+}
+  

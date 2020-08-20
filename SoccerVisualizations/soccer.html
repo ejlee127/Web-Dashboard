@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization of Latitude vs. Max. Temperature </title>
+
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light p-0 justify-content-between">
+        <a class="navbar-brand mr-0 px-3" href="soccer.html">Soccer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="visualizations/weather.html">Weather</a>
+                <a class="dropdown-item" href="visualizations/attendance.html">Attendance</a>
+                <a class="dropdown-item" href="visualizations/covid.html">Covid</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Data
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="data_weather.html">Weather</a>
+                <a class="dropdown-item" href="data_att.html">Attendance</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+ <div class="container">     <div class="row justify-content-center">
+          <div class="col-12 col-md-8">
+            <div class="main-box">
+                <h1 class="mt-0">Game results vs. X</h1>
+                <hr>
+                <img class="img-text" src="assets/images/Fig0.png" align="left" alt="Chart"/>   
+                <p class="body-font-size">  The scope of this project is to review international 
+                soccer data in the European leagues to solve the question 
+                of whether or not home team advantage is real. 
+                This will cover a few common assumptions such as home team
+                advantage is real because there are more fans in the 
+                stadium or home team advantage is real 
+                because they are more used to the weather. 
+                We will be able to potentially predict how the rest of the season will continue without fans in the stadiums.
+                Key things we will analyze may include 
+                but are not limited to the following:</p> 
+                <ul class="body-font-size">
+                <li> How does the weather impact average goals per match at home/away?</li>
+
+                <li> How does attendance affect the scores? </li>
+
+                <li> Has COVID-19 had an impact on home-team wins because of less attendance?</li>
+                </ul>
+                <p class="body-font-size">
+                    After assembling the dataset, we used Matplotlib to plot various aspects vs. game results. 
+                          Factors we looked at inclused: attendance, max. temperature, and covid-effect. 
+                          This site provides the source data and visualizations created as part of the analysis, 
+                          as well as explanations an descriptions of any trends and correlations witnessed.
+                </p>
+            </div>
+          </div>
+
+        <div class="col-12 col-md-4" >
+            <div class="side-box">
+                <h2>Visualizations</h2>
+                <hr>
+                  <div class="row">
+                    <div class="col-4 col-md-12">
+                        <h5>Weather</h5>
+                        <a href="visualizations/weather.html"><img class="img-small" src="assets/images/Fig1.png" alt="Chart">
+                        </a>                        
+                    </div>
+                    <div class="col-4 col-md-12">
+                        <h5>Attendance</h5>
+                        <a href="visualizations/attendance.html"><img class="img-small" src="assets/images/Fig2.png" alt="Chart">
+                        </a>                        
+                    </div>
+                    <div class="col-4 col-md-12">
+                        <h5>Covid</h5>
+                        <a href="visualizations/covid.html"><img class="img-small" src="assets/images/Fig3.png" alt="Chart">
+                        </a>                        
+                    </div>
+                  </div>   
+            </div>
+          </div>
+    </div>    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+</body>
+</html>

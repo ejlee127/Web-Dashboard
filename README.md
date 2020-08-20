@@ -2,8 +2,6 @@
 
 This challenge will be creating a visualization dashboard website using the charts from the weather data of the cities.
 
-* intro page: index.html
-
 ## Homework: 
 ### Latitude - Latitude Analysis Dashboard with Attitude
 

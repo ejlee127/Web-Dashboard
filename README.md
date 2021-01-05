@@ -15,5 +15,5 @@ How is the weather as lattitude is getting zero? Of course, it is getting hot. A
 * SoccerVisualizations/
     - start page: soccer.html
 
-Do the players perform better at home stadium? Because they are supported by their home team enthuastic fans? How about, after covid-19 pandemic, still are there home advantage without their fans? Check this out the page.
+Do the players perform better at home stadium? Because they are supported by their home team enthuastic fans? How about, after covid-19 pandemic, still are there home advantage without their fans?
 ![img](SoccerVisualizations/assets/images/Fig3.png)
